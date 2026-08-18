@@ -1,0 +1,313 @@
+﻿DataType,Site,Year,Month,Scope,ActivityCategory,ActivitySubCategory,Value
+Detail,Bangna,2026,Jan,Scope 1,Stationary Combustion,Diesel B7 - ปั๊มดับเพลิง,0.201503981232
+Detail,Bangna,2025,Jan,Scope 1,Stationary Combustion,Diesel B7 - ปั๊มดับเพลิง,0.100751990616
+Detail,Bangna,2026,Jan,Scope 1,Stationary Combustion,Diesel B7 - Generator,0
+Detail,Bangna,2025,Jan,Scope 1,Stationary Combustion,Diesel B7 - Generator,0
+Detail,Bangna,2026,Jan,Scope 1,Stationary Combustion,Fuel Oil A - Hot oil,129.548014356138
+Detail,Bangna,2025,Jan,Scope 1,Stationary Combustion,Fuel Oil A - Hot oil,136.554787055456
+Detail,Bangna,2026,Jan,Scope 1,Stationary Combustion,Fuel Oil A - Boiler,28.7676963675119
+Detail,Bangna,2025,Jan,Scope 1,Stationary Combustion,Fuel Oil A - Boiler,19.6807880230841
+Detail,Bangna,2026,Jan,Scope 1,Stationary Combustion,LPG - โรงอาหาร / การผลิตเพลส์ / การผลิตเรซิน,2.39107702044444
+Detail,Bangna,2025,Jan,Scope 1,Stationary Combustion,LPG - โรงอาหาร / การผลิตเพลส์ / การผลิตเรซิน,2.39107702044444
+Detail,Bangna,2026,Jan,Scope 1,Mobile Combustion: Off-road,Diesel B7 - รถโฟล์คลิฟท์ / รถหัวลาก / รถบรรทุก (Waste yard),36.5182874806295
+Detail,Bangna,2025,Jan,Scope 1,Mobile Combustion: Off-road,Diesel B7 - รถโฟล์คลิฟท์ / รถหัวลาก / รถบรรทุก (Waste yard),40.4720884768525
+Detail,Bangna,2026,Jan,Scope 1,Mobile Combustion: On-road,Diesel B7 - ยานพาหนะของบริษัท,125.718922887639
+Detail,Bangna,2025,Jan,Scope 1,Mobile Combustion: On-road,Diesel B7 - ยานพาหนะของบริษัท,126.965702777445
+Detail,Bangna,2026,Jan,Scope 1,Mobile Combustion: On-road,Diesel B10 - ยานพาหนะของบริษัท,0
+Detail,Bangna,2025,Jan,Scope 1,Mobile Combustion: On-road,Diesel B10 - ยานพาหนะของบริษัท,0
+Detail,Bangna,2026,Jan,Scope 1,Mobile Combustion: On-road,Diesel B20 - ยานพาหนะ of บริษัท,0
+Detail,Bangna,2025,Jan,Scope 1,Mobile Combustion: On-road,Diesel B20 - ยานพาหนะ of บริษัท,0
+Detail,Bangna,2026,Jan,Scope 1,Mobile Combustion: On-road,Gasohol 91 - ยานพาหนะของบริษัท,159.436222189492
+Detail,Bangna,2025,Jan,Scope 1,Mobile Combustion: On-road,Gasohol 91 - ยานพาหนะของบริษัท,154.412410505635
+Detail,Bangna,2026,Jan,Scope 1,Mobile Combustion: On-road,Gasohol 95 - ยานพาหนะของบริษัท,9.61743093028608
+Detail,Bangna,2025,Jan,Scope 1,Mobile Combustion: On-road,Gasohol 95 - ยานพาหนะของบริษัท,10.4673326560977
+Detail,Bangna,2026,Jan,Scope 1,Mobile Combustion: On-road,ULG 95 - ยานพาหนะของบริษัท,0
+Detail,Bangna,2025,Jan,Scope 1,Mobile Combustion: On-road,ULG 95 - ยานพาหนะของบริษัท,0
+Detail,Bangna,2026,Jan,Scope 1,Mobile Combustion: On-road,Gasohol E20 - ยานพาหนะของบริษัท,26.6545126821238
+Detail,Bangna,2025,Jan,Scope 1,Mobile Combustion: On-road,Gasohol E20 - ยานพาหนะของบริษัท,30.5031306013624
+Detail,Bangna,2026,Jan,Scope 1,Mobile Combustion: On-road,Gasohol E85 - ยานพาหนะของบริษัท,0
+Detail,Bangna,2025,Jan,Scope 1,Mobile Combustion: On-road,Gasohol E85 - ยานพาหนะของบริษัท,0
+Detail,Bangna,2026,Jan,Scope 1,Fugitive Emissions,CO2 Fire Extinguisher,0
+Detail,Bangna,2025,Jan,Scope 1,Fugitive Emissions,CO2 Fire Extinguisher,0
+Detail,Bangna,2026,Jan,Scope 1,Fugitive Emissions,Methane from WWT,0
+Detail,Bangna,2025,Jan,Scope 1,Fugitive Emissions,Methane from WWT,0
+Detail,Bangna,2026,Jan,Scope 1,Fugitive Emissions,Methane from Septic tank,32.795952
+Detail,Bangna,2025,Jan,Scope 1,Fugitive Emissions,Methane from Septic tank,31.6932
+Detail,Bangna,2026,Jan,Scope 1,Fugitive Emissions,Refrigerant R-32,0
+Detail,Bangna,2025,Jan,Scope 1,Fugitive Emissions,Refrigerant R-32,0
+Detail,Bangna,2026,Jan,Scope 1,Fugitive Emissions,Refrigerant R-134a,0
+Detail,Bangna,2025,Jan,Scope 1,Fugitive Emissions,Refrigerant R-134a,0
+Detail,Bangna,2026,Jan,Scope 1,Fugitive Emissions,Refrigerant R-410A,0
+Detail,Bangna,2025,Jan,Scope 1,Fugitive Emissions,Refrigerant R-410A,0
+Detail,Bangna,2026,Jan,Scope 1,Fugitive Emissions,Refrigerant R-407C,0
+Detail,Bangna,2025,Jan,Scope 1,Fugitive Emissions,Refrigerant R-407C,0
+Detail,Bangna,2026,Jan,Scope 2,การปล่อยก๊าซเรือนกระจกทางอ้อมจากการนำเข้าพลังงานมาใช้ในองค์กร,ไฟฟ้านำเข้าจากภายนอก,464.76375
+Detail,Bangna,2025,Jan,Scope 2,การปล่อยก๊าซเรือนกระจกทางอ้อมจากการนำเข้าพลังงานมาใช้ในองค์กร,ไฟฟ้านำเข้าจากภายนอก,456.8051207
+Detail,Bangna,2026,Jan,Scope 2,การปล่อยก๊าซเรือนกระจกทางอ้อมจากการนำเข้าพลังงานมาใช้ในองค์กร,ไฟฟ้าจาก Solar Rooftop,0
+Detail,Bangna,2025,Jan,Scope 2,การปล่อยก๊าซเรือนกระจกทางอ้อมจากการนำเข้าพลังงานมาใช้ในองค์กร,ไฟฟ้าจาก Solar Rooftop,0
+Detail,Bangna,2026,Jan,Scope 2,การปล่อยก๊าซเรือนกระจกทางอ้อมจากการนำเข้าพลังงานมาใช้ในองค์กร,ไอน้ำจาก TDIC,0
+Detail,Bangna,2025,Jan,Scope 2,การปล่อยก๊าซเรือนกระจกทางอ้อมจากการนำเข้าพลังงานมาใช้ในองค์กร,ไอน้ำจาก TDIC,0
+Detail,Bangna,2026,Jan,Scope 2,,Solar Value,464.76375
+Breakdown,Bangna,2026,Jan,Scope 1,,Plan,480.79
+Breakdown,Bangna,2026,Jan,Scope 2,,Plan,458.66
+KPI,Bangna,2026,Jan,OverviewKPI,,carbonIntensity,0.077006269
+Detail,Bangna,2026,Feb,Scope 1,Stationary Combustion,Diesel B7 - ปั๊มดับเพลิง,0.176315983578
+Detail,Bangna,2025,Feb,Scope 1,Stationary Combustion,Diesel B7 - ปั๊มดับเพลิง,0.806015924928
+Detail,Bangna,2026,Feb,Scope 1,Stationary Combustion,Diesel B7 - Generator,0
+Detail,Bangna,2025,Feb,Scope 1,Stationary Combustion,Diesel B7 - Generator,1.00751990616
+Detail,Bangna,2026,Feb,Scope 1,Stationary Combustion,Fuel Oil A - Hot oil,147.612350221567
+Detail,Bangna,2025,Feb,Scope 1,Stationary Combustion,Fuel Oil A - Hot oil,138.428841150586
+Detail,Bangna,2026,Feb,Scope 1,Stationary Combustion,Fuel Oil A - Boiler,50.528620035706
+Detail,Bangna,2025,Feb,Scope 1,Stationary Combustion,Fuel Oil A - Boiler,4.29873233161276
+Detail,Bangna,2026,Feb,Scope 1,Stationary Combustion,LPG - โรงอาหาร / การผลิตเพลส์ / การผลิตเรซิน,2.39107702044444
+Detail,Bangna,2025,Feb,Scope 1,Stationary Combustion,LPG - โรงอาหาร / การผลิตเพลส์ / การผลิตเรซิน,2.88610468483333
+Detail,Bangna,2026,Feb,Scope 1,Mobile Combustion: Off-road,Diesel B7 - รถโฟล์คลิฟท์ / รถหัวลาก / รถบรรทุก (Waste yard),42.8309852630335
+Detail,Bangna,2025,Feb,Scope 1,Mobile Combustion: Off-road,Diesel B7 - รถโฟล์คลิฟท์ / รถหัวลาก / รถบรรทุก (Waste yard),40.6561158857035
+Detail,Bangna,2026,Feb,Scope 1,Mobile Combustion: On-road,Diesel B7 - ยานพาหนะของบริษัท,116.046071146493
+Detail,Bangna,2025,Feb,Scope 1,Mobile Combustion: On-road,Diesel B7 - ยานพาหนะของบริษัท,118.110769195232
+Detail,Bangna,2026,Feb,Scope 1,Mobile Combustion: On-road,Diesel B10 - ยานพาหนะของบริษัท,0
+Detail,Bangna,2025,Feb,Scope 1,Mobile Combustion: On-road,Diesel B10 - ยานพาหนะของบริษัท,0
+Detail,Bangna,2026,Feb,Scope 1,Mobile Combustion: On-road,Diesel B20 - ยานพาหนะ of บริษัท,0
+Detail,Bangna,2025,Feb,Scope 1,Mobile Combustion: On-road,Diesel B20 - ยานพาหนะ of บริษัท,0
+Detail,Bangna,2026,Feb,Scope 1,Mobile Combustion: On-road,Gasohol 91 - ยานพาหนะของบริษัท,150.49414397017
+Detail,Bangna,2025,Feb,Scope 1,Mobile Combustion: On-road,Gasohol 91 - ยานพาหนะของบริษัท,148.044109957232
+Detail,Bangna,2026,Feb,Scope 1,Mobile Combustion: On-road,Gasohol 95 - ยานพาหนะของบริษัท,9.88941989885355
+Detail,Bangna,2025,Feb,Scope 1,Mobile Combustion: On-road,Gasohol 95 - ยานพาหนะของบริษัท,9.59060640184812
+Detail,Bangna,2026,Feb,Scope 1,Mobile Combustion: On-road,ULG 95 - ยานพาหนะของบริษัท,0
+Detail,Bangna,2025,Feb,Scope 1,Mobile Combustion: On-road,ULG 95 - ยานพาหนะของบริษัท,0
+Detail,Bangna,2026,Feb,Scope 1,Mobile Combustion: On-road,Gasohol E20 - ยานพาหนะของบริษัท,27.5698865204567
+Detail,Bangna,2025,Feb,Scope 1,Mobile Combustion: On-road,Gasohol E20 - ยานพาหนะของบริษัท,25.6716786975897
+Detail,Bangna,2026,Feb,Scope 1,Mobile Combustion: On-road,Gasohol E85 - ยานพาหนะของบริษัท,0
+Detail,Bangna,2025,Feb,Scope 1,Mobile Combustion: On-road,Gasohol E85 - ยานพาหนะของบริษัท,0
+Detail,Bangna,2026,Feb,Scope 1,Fugitive Emissions,CO2 Fire Extinguisher,0
+Detail,Bangna,2025,Feb,Scope 1,Fugitive Emissions,CO2 Fire Extinguisher,0
+Detail,Bangna,2026,Feb,Scope 1,Fugitive Emissions,Methane from WWT,0
+Detail,Bangna,2025,Feb,Scope 1,Fugitive Emissions,Methane from WWT,0
+Detail,Bangna,2026,Feb,Scope 1,Fugitive Emissions,Methane from Septic tank,32.915904
+Detail,Bangna,2025,Feb,Scope 1,Fugitive Emissions,Methane from Septic tank,27.789216
+Detail,Bangna,2026,Feb,Scope 1,Fugitive Emissions,Refrigerant R-32,0
+Detail,Bangna,2025,Feb,Scope 1,Fugitive Emissions,Refrigerant R-32,0
+Detail,Bangna,2026,Feb,Scope 1,Fugitive Emissions,Refrigerant R-134a,0
+Detail,Bangna,2025,Feb,Scope 1,Fugitive Emissions,Refrigerant R-134a,0
+Detail,Bangna,2026,Feb,Scope 1,Fugitive Emissions,Refrigerant R-410A,43.4711
+Detail,Bangna,2025,Feb,Scope 1,Fugitive Emissions,Refrigerant R-410A,0
+Detail,Bangna,2026,Feb,Scope 1,Fugitive Emissions,Refrigerant R-407C,0
+Detail,Bangna,2025,Feb,Scope 1,Fugitive Emissions,Refrigerant R-407C,0
+Detail,Bangna,2026,Feb,Scope 2,การปล่อยก๊าซเรือนกระจกทางอ้อมจากการนำเข้าพลังงานมาใช้ในองค์กร,ไฟฟ้านำเข้าจากภายนอก,420.427725
+Detail,Bangna,2025,Feb,Scope 2,การปล่อยก๊าซเรือนกระจกทางอ้อมจากการนำเข้าพลังงานมาใช้ในองค์กร,ไฟฟ้านำเข้าจากภายนอก,488.3388127
+Detail,Bangna,2026,Feb,Scope 2,การปล่อยก๊าซเรือนกระจกทางอ้อมจากการนำเข้าพลังงานมาใช้ในองค์กร,ไฟฟ้าจาก Solar Rooftop,0
+Detail,Bangna,2025,Feb,Scope 2,การปล่อยก๊าซเรือนกระจกทางอ้อมจากการนำเข้าพลังงานมาใช้ในองค์กร,ไฟฟ้าจาก Solar Rooftop,0
+Detail,Bangna,2026,Feb,Scope 2,การปล่อยก๊าซเรือนกระจกทางอ้อมจากการนำเข้าพลังงานมาใช้ในองค์กร,ไอน้ำจาก TDIC,0
+Detail,Bangna,2025,Feb,Scope 2,การปล่อยก๊าซเรือนกระจกทางอ้อมจากการนำเข้าพลังงานมาใช้ในองค์กร,ไอน้ำจาก TDIC,0
+Detail,Bangna,2026,Feb,Scope 2,,Solar Value,420.427725
+Breakdown,Bangna,2026,Feb,Scope 1,,Plan,480.79
+Breakdown,Bangna,2026,Feb,Scope 2,,Plan,458.66
+KPI,Bangna,2026,Feb,OverviewKPI,,carbonIntensity,0.077750717
+Detail,Bangna,2026,Mar,Scope 1,Stationary Combustion,Diesel B7 - ปั๊มดับเพลิง,0.931955913198
+Detail,Bangna,2025,Mar,Scope 1,Stationary Combustion,Diesel B7 - ปั๊มดับเพลิง,0.201503981232
+Detail,Bangna,2026,Mar,Scope 1,Stationary Combustion,Diesel B7 - Generator,1.00751990616
+Detail,Bangna,2025,Mar,Scope 1,Stationary Combustion,Diesel B7 - Generator,0
+Detail,Bangna,2026,Mar,Scope 1,Stationary Combustion,Fuel Oil A - Hot oil,139.94547255747
+Detail,Bangna,2025,Mar,Scope 1,Stationary Combustion,Fuel Oil A - Hot oil,155.723591227809
+Detail,Bangna,2026,Mar,Scope 1,Stationary Combustion,Fuel Oil A - Boiler,37.3587209823006
+Detail,Bangna,2025,Mar,Scope 1,Stationary Combustion,Fuel Oil A - Boiler,8.08226078827568
+Detail,Bangna,2026,Mar,Scope 1,Stationary Combustion,LPG - โรงอาหาร / การผลิตเพลส์ / การผลิตเรซิน,3.58661553066667
+Detail,Bangna,2025,Mar,Scope 1,Stationary Combustion,LPG - โรงอาหาร / การผลิตเพลส์ / การผลิตเรซิน,2.73666237105556
+Detail,Bangna,2026,Mar,Scope 1,Mobile Combustion: Off-road,Diesel B7 - รถโฟล์คลิฟท์ / รถหัวลาก / รถบรรทุก (Waste yard),47.222548428796
+Detail,Bangna,2025,Mar,Scope 1,Mobile Combustion: Off-road,Diesel B7 - รถโฟล์คลิฟท์ / รถหัวลาก / รถบรรทุก (Waste yard),45.527265632108
+Detail,Bangna,2026,Mar,Scope 1,Mobile Combustion: On-road,Diesel B7 - ยานพาหนะของบริษัท,123.404280474625
+Detail,Bangna,2025,Mar,Scope 1,Mobile Combustion: On-road,Diesel B7 - ยานพาหนะของบริษัท,122.33477618025
+Detail,Bangna,2026,Mar,Scope 1,Mobile Combustion: On-road,Diesel B10 - ยานพาหนะของบริษัท,0
+Detail,Bangna,2025,Mar,Scope 1,Mobile Combustion: On-road,Diesel B10 - ยานพาหนะของบริษัท,0
+Detail,Bangna,2026,Mar,Scope 1,Mobile Combustion: On-road,Diesel B20 - ยานพาหนะ of บริษัท,0
+Detail,Bangna,2025,Mar,Scope 1,Mobile Combustion: On-road,Diesel B20 - ยานพาหนะ of บริษัท,0
+Detail,Bangna,2026,Mar,Scope 1,Mobile Combustion: On-road,Gasohol 91 - ยานพาหนะของบริษัท,161.080318287089
+Detail,Bangna,2025,Mar,Scope 1,Mobile Combustion: On-road,Gasohol 91 - ยานพาหนะของบริษัท,157.334207058552
+Detail,Bangna,2026,Mar,Scope 1,Mobile Combustion: On-road,Gasohol 95 - ยานพาหนะของบริษัท,10.8976688409988
+Detail,Bangna,2025,Mar,Scope 1,Mobile Combustion: On-road,Gasohol 95 - ยานพาหนะของบริษัท,11.3060408286865
+Detail,Bangna,2026,Mar,Scope 1,Mobile Combustion: On-road,ULG 95 - ยานพาหนะของบริษัท,0
+Detail,Bangna,2025,Mar,Scope 1,Mobile Combustion: On-road,ULG 95 - ยานพาหนะของบริษัท,0
+Detail,Bangna,2026,Mar,Scope 1,Mobile Combustion: On-road,Gasohol E20 - ยานพาหนะของบริษัท,32.4611270037414
+Detail,Bangna,2025,Mar,Scope 1,Mobile Combustion: On-road,Gasohol E20 - ยานพาหนะของบริษัท,30.0834358420506
+Detail,Bangna,2026,Mar,Scope 1,Mobile Combustion: On-road,Gasohol E85 - ยานพาหนะของบริษัท,0
+Detail,Bangna,2025,Mar,Scope 1,Mobile Combustion: On-road,Gasohol E85 - ยานพาหนะของบริษัท,0
+Detail,Bangna,2026,Mar,Scope 1,Fugitive Emissions,CO2 Fire Extinguisher,0
+Detail,Bangna,2025,Mar,Scope 1,Fugitive Emissions,CO2 Fire Extinguisher,0.009
+Detail,Bangna,2026,Mar,Scope 1,Fugitive Emissions,Methane from WWT,0
+Detail,Bangna,2025,Mar,Scope 1,Fugitive Emissions,Methane from WWT,0
+Detail,Bangna,2026,Mar,Scope 1,Fugitive Emissions,Methane from Septic tank,35.66808
+Detail,Bangna,2025,Mar,Scope 1,Fugitive Emissions,Methane from Septic tank,32.031888
+Detail,Bangna,2026,Mar,Scope 1,Fugitive Emissions,Refrigerant R-32,0
+Detail,Bangna,2025,Mar,Scope 1,Fugitive Emissions,Refrigerant R-32,0
+Detail,Bangna,2026,Mar,Scope 1,Fugitive Emissions,Refrigerant R-134a,0
+Detail,Bangna,2025,Mar,Scope 1,Fugitive Emissions,Refrigerant R-134a,0
+Detail,Bangna,2026,Mar,Scope 1,Fugitive Emissions,Refrigerant R-410A,0
+Detail,Bangna,2025,Mar,Scope 1,Fugitive Emissions,Refrigerant R-410A,43.4711
+Detail,Bangna,2026,Mar,Scope 1,Fugitive Emissions,Refrigerant R-407C,0
+Detail,Bangna,2025,Mar,Scope 1,Fugitive Emissions,Refrigerant R-407C,0
+Detail,Bangna,2026,Mar,Scope 2,การปล่อยก๊าซเรือนกระจกทางอ้อมจากการนำเข้าพลังงานมาใช้ในองค์กร,ไฟฟ้านำเข้าจากภายนอก,539.62565
+Detail,Bangna,2025,Mar,Scope 2,การปล่อยก๊าซเรือนกระจกทางอ้อมจากการนำเข้าพลังงานมาใช้ในองค์กร,ไฟฟ้านำเข้าจากภายนอก,566.6181537
+Detail,Bangna,2026,Mar,Scope 2,การปล่อยก๊าซเรือนกระจกทางอ้อมจากการนำเข้าพลังงานมาใช้ในองค์กร,ไฟฟ้าจาก Solar Rooftop,0
+Detail,Bangna,2025,Mar,Scope 2,การปล่อยก๊าซเรือนกระจกทางอ้อมจากการนำเข้าพลังงานมาใช้ในองค์กร,ไฟฟ้าจาก Solar Rooftop,0
+Detail,Bangna,2026,Mar,Scope 2,การปล่อยก๊าซเรือนกระจกทางอ้อมจากการนำเข้าพลังงานมาใช้ในองค์กร,ไอน้ำจาก TDIC,0
+Detail,Bangna,2025,Mar,Scope 2,การปล่อยก๊าซเรือนกระจกทางอ้อมจากการนำเข้าพลังงานมาใช้ในองค์กร,ไอน้ำจาก TDIC,0
+Detail,Bangna,2026,Mar,Scope 2,,Solar Value,539.62565
+Breakdown,Bangna,2026,Mar,Scope 1,,Plan,480.79
+Breakdown,Bangna,2026,Mar,Scope 2,,Plan,458.66
+KPI,Bangna,2026,Mar,OverviewKPI,,carbonIntensity,0.073423486
+Detail,Bangna,2026,Apr,Scope 1,Stationary Combustion,Diesel B7 - ปั๊มดับเพลิง,0.100751990616
+Detail,Bangna,2025,Apr,Scope 1,Stationary Combustion,Diesel B7 - ปั๊มดับเพลิง,0.604511943696
+Detail,Bangna,2026,Apr,Scope 1,Stationary Combustion,Diesel B7 - Generator,0
+Detail,Bangna,2025,Apr,Scope 1,Stationary Combustion,Diesel B7 - Generator,0
+Detail,Bangna,2026,Apr,Scope 1,Stationary Combustion,Fuel Oil A - Hot oil,118.921934435298
+Detail,Bangna,2025,Apr,Scope 1,Stationary Combustion,Fuel Oil A - Hot oil,129.499713992862
+Detail,Bangna,2026,Apr,Scope 1,Stationary Combustion,Fuel Oil A - Boiler,45.682483586959
+Detail,Bangna,2025,Apr,Scope 1,Stationary Combustion,Fuel Oil A - Boiler,34.0453160615294
+Detail,Bangna,2026,Apr,Scope 1,Stationary Combustion,LPG - โรงอาหาร / การผลิตเพลส์ / การผลิตเรซิน,3.38113234922222
+Detail,Bangna,2025,Apr,Scope 1,Stationary Combustion,LPG - โรงอาหาร / การผลิตเพลส์ / การผลิตเรซิน,2.4377777435
+Detail,Bangna,2026,Apr,Scope 1,Mobile Combustion: Off-road,Diesel B7 - รถโฟล์คลิฟท์ / รถหัวลาก / รถบรรทุก (Waste yard),37.9514706344085
+Detail,Bangna,2025,Apr,Scope 1,Mobile Combustion: Off-road,Diesel B7 - รถโฟล์คลิฟท์ / รถหัวลาก / รถบรรทุก (Waste yard),39.7973213110655
+Detail,Bangna,2026,Apr,Scope 1,Mobile Combustion: On-road,Diesel B7 - ยานพาหนะของบริษัท,112.142464472583
+Detail,Bangna,2025,Apr,Scope 1,Mobile Combustion: On-road,Diesel B7 - ยานพาหนะของบริษัท,116.943887985808
+Detail,Bangna,2026,Apr,Scope 1,Mobile Combustion: On-road,Diesel B10 - ยานพาหนะของบริษัท,0
+Detail,Bangna,2025,Apr,Scope 1,Mobile Combustion: On-road,Diesel B10 - ยานพาหนะของบริษัท,0
+Detail,Bangna,2026,Apr,Scope 1,Mobile Combustion: On-road,Diesel B20 - ยานพาหนะ of บริษัท,0
+Detail,Bangna,2025,Apr,Scope 1,Mobile Combustion: On-road,Diesel B20 - ยานพาหนะ of บริษัท,0
+Detail,Bangna,2026,Apr,Scope 1,Mobile Combustion: On-road,Gasohol 91 - ยานพาหนะของบริษัท,156.842544868399
+Detail,Bangna,2025,Apr,Scope 1,Mobile Combustion: On-road,Gasohol 91 - ยานพาหนะของบริษัท,152.856975349421
+Detail,Bangna,2026,Apr,Scope 1,Mobile Combustion: On-road,Gasohol 95 - ยานพาหนะของบริษัท,8.55250381784854
+Detail,Bangna,2025,Apr,Scope 1,Mobile Combustion: On-road,Gasohol 95 - ยานพาหนะของบริษัท,8.71283849924356
+Detail,Bangna,2026,Apr,Scope 1,Mobile Combustion: On-road,ULG 95 - ยานพาหนะของบริษัท,0
+Detail,Bangna,2025,Apr,Scope 1,Mobile Combustion: On-road,ULG 95 - ยานพาหนะของบริษัท,0
+Detail,Bangna,2026,Apr,Scope 1,Mobile Combustion: On-road,Gasohol E20 - ยานพาหนะของบริษัท,30.2974325748923
+Detail,Bangna,2025,Apr,Scope 1,Mobile Combustion: On-road,Gasohol E20 - ยานพาหนะของบริษัท,32.3890949903086
+Detail,Bangna,2026,Apr,Scope 1,Mobile Combustion: On-road,Gasohol E85 - ยานพาหนะของบริษัท,0
+Detail,Bangna,2025,Apr,Scope 1,Mobile Combustion: On-road,Gasohol E85 - ยานพาหนะของบริษัท,0
+Detail,Bangna,2026,Apr,Scope 1,Fugitive Emissions,CO2 Fire Extinguisher,0
+Detail,Bangna,2025,Apr,Scope 1,Fugitive Emissions,CO2 Fire Extinguisher,0
+Detail,Bangna,2026,Apr,Scope 1,Fugitive Emissions,Methane from WWT,0
+Detail,Bangna,2025,Apr,Scope 1,Fugitive Emissions,Methane from WWT,0
+Detail,Bangna,2026,Apr,Scope 1,Fugitive Emissions,Methane from Septic tank,29.036448
+Detail,Bangna,2025,Apr,Scope 1,Fugitive Emissions,Methane from Septic tank,29.448384
+Detail,Bangna,2026,Apr,Scope 1,Fugitive Emissions,Refrigerant R-32,0
+Detail,Bangna,2025,Apr,Scope 1,Fugitive Emissions,Refrigerant R-32,0
+Detail,Bangna,2026,Apr,Scope 1,Fugitive Emissions,Refrigerant R-134a,0
+Detail,Bangna,2025,Apr,Scope 1,Fugitive Emissions,Refrigerant R-134a,0
+Detail,Bangna,2026,Apr,Scope 1,Fugitive Emissions,Refrigerant R-410A,0
+Detail,Bangna,2025,Apr,Scope 1,Fugitive Emissions,Refrigerant R-410A,21.73555
+Detail,Bangna,2026,Apr,Scope 1,Fugitive Emissions,Refrigerant R-407C,0
+Detail,Bangna,2025,Apr,Scope 1,Fugitive Emissions,Refrigerant R-407C,0
+Detail,Bangna,2026,Apr,Scope 2,การปล่อยก๊าซเรือนกระจกทางอ้อมจากการนำเข้าพลังงานมาใช้ในองค์กร,ไฟฟ้านำเข้าจากภายนอก,488.593075
+Detail,Bangna,2025,Apr,Scope 2,การปล่อยก๊าซเรือนกระจกทางอ้อมจากการนำเข้าพลังงานมาใช้ในองค์กร,ไฟฟ้านำเข้าจากภายนอก,537.1155554
+Detail,Bangna,2026,Apr,Scope 2,การปล่อยก๊าซเรือนกระจกทางอ้อมจากการนำเข้าพลังงานมาใช้ในองค์กร,ไฟฟ้าจาก Solar Rooftop,0
+Detail,Bangna,2025,Apr,Scope 2,การปล่อยก๊าซเรือนกระจกทางอ้อมจากการนำเข้าพลังงานมาใช้ในองค์กร,ไฟฟ้าจาก Solar Rooftop,0
+Detail,Bangna,2026,Apr,Scope 2,การปล่อยก๊าซเรือนกระจกทางอ้อมจากการนำเข้าพลังงานมาใช้ในองค์กร,ไอน้ำจาก TDIC,0
+Detail,Bangna,2025,Apr,Scope 2,การปล่อยก๊าซเรือนกระจกทางอ้อมจากการนำเข้าพลังงานมาใช้ในองค์กร,ไอน้ำจาก TDIC,0
+Detail,Bangna,2026,Apr,Scope 2,,Solar Value,488.593075
+Breakdown,Bangna,2026,Apr,Scope 1,,Plan,480.79
+Breakdown,Bangna,2026,Apr,Scope 2,,Plan,458.66
+KPI,Bangna,2026,Apr,OverviewKPI,,carbonIntensity,0.077807703
+Detail,Bangna,2026,May,Scope 1,Stationary Combustion,Diesel B7 - ปั๊มดับเพลิง,0
+Detail,Bangna,2025,May,Scope 1,Stationary Combustion,Diesel B7 - ปั๊มดับเพลิง,0.302255971848
+Detail,Bangna,2026,May,Scope 1,Stationary Combustion,Diesel B7 - Generator,0
+Detail,Bangna,2025,May,Scope 1,Stationary Combustion,Diesel B7 - Generator,0
+Detail,Bangna,2026,May,Scope 1,Stationary Combustion,Fuel Oil A - Hot oil,150.561892405655
+Detail,Bangna,2025,May,Scope 1,Stationary Combustion,Fuel Oil A - Hot oil,122.811723691169
+Detail,Bangna,2026,May,Scope 1,Stationary Combustion,Fuel Oil A - Boiler,49.7139539084416
+Detail,Bangna,2025,May,Scope 1,Stationary Combustion,Fuel Oil A - Boiler,9.10300846552006
+Detail,Bangna,2026,May,Scope 1,Stationary Combustion,LPG - โรงอาหาร / การผลิตเพลส์ / การผลิตเรซิน,2.73666237105556
+Detail,Bangna,2025,May,Scope 1,Stationary Combustion,LPG - โรงอาหาร / การผลิตเพลส์ / การผลิตเรซิน,2.689961648
+Detail,Bangna,2026,May,Scope 1,Mobile Combustion: Off-road,Diesel B7 - รถโฟล์คลิฟท์ / รถหัวลาก / รถบรรทุก (Waste yard),47.7160764798055
+Detail,Bangna,2025,May,Scope 1,Mobile Combustion: Off-road,Diesel B7 - รถโฟล์คลิฟท์ / รถหัวลาก / รถบรรทุก (Waste yard),42.0223799817185
+Detail,Bangna,2026,May,Scope 1,Mobile Combustion: On-road,Diesel B7 - ยานพาหนะของบริษัท,124.810505917088
+Detail,Bangna,2025,May,Scope 1,Mobile Combustion: On-road,Diesel B7 - ยานพาหนะของบริษัท,128.551699613435
+Detail,Bangna,2026,May,Scope 1,Mobile Combustion: On-road,Diesel B10 - ยานพาหนะของบริษัท,0
+Detail,Bangna,2025,May,Scope 1,Mobile Combustion: On-road,Diesel B10 - ยานพาหนะของบริษัท,0
+Detail,Bangna,2026,May,Scope 1,Mobile Combustion: On-road,Diesel B20 - ยานพาหนะ of บริษัท,0.34482207296448
+Detail,Bangna,2025,May,Scope 1,Mobile Combustion: On-road,Diesel B20 - ยานพาหนะ of บริษัท,0
+Detail,Bangna,2026,May,Scope 1,Mobile Combustion: On-road,Gasohol 91 - ยานพาหนะของบริษัท,162.639588792546
+Detail,Bangna,2025,May,Scope 1,Mobile Combustion: On-road,Gasohol 91 - ยานพาหนะของบริษัท,150.197992926359
+Detail,Bangna,2026,May,Scope 1,Mobile Combustion: On-road,Gasohol 95 - ยานพาหนะของบริษัท,8.94417401581209
+Detail,Bangna,2025,May,Scope 1,Mobile Combustion: On-road,Gasohol 95 - ยานพาหนะของบริษัท,10.3992817690655
+Detail,Bangna,2026,May,Scope 1,Mobile Combustion: On-road,ULG 95 - ยานพาหนะของบริษัท,0
+Detail,Bangna,2025,May,Scope 1,Mobile Combustion: On-road,ULG 95 - ยานพาหนะของบริษัท,0
+Detail,Bangna,2026,May,Scope 1,Mobile Combustion: On-road,Gasohol E20 - ยานพาหนะของบริษัท,33.0059692866279
+Detail,Bangna,2025,May,Scope 1,Mobile Combustion: On-road,Gasohol E20 - ยานพาหนะของบริษัท,32.329408723615
+Detail,Bangna,2026,May,Scope 1,Mobile Combustion: On-road,Gasohol E85 - ยานพาหนะของบริษัท,0
+Detail,Bangna,2025,May,Scope 1,Mobile Combustion: On-road,Gasohol E85 - ยานพาหนะของบริษัท,0
+Detail,Bangna,2026,May,Scope 1,Fugitive Emissions,CO2 Fire Extinguisher,0
+Detail,Bangna,2025,May,Scope 1,Fugitive Emissions,CO2 Fire Extinguisher,0.0315
+Detail,Bangna,2026,May,Scope 1,Fugitive Emissions,Methane from WWT,0
+Detail,Bangna,2025,May,Scope 1,Fugitive Emissions,Methane from WWT,0
+Detail,Bangna,2026,May,Scope 1,Fugitive Emissions,Methane from Septic tank,34.791456
+Detail,Bangna,2025,May,Scope 1,Fugitive Emissions,Methane from Septic tank,29.801856
+Detail,Bangna,2026,May,Scope 1,Fugitive Emissions,Refrigerant R-32,6.4315
+Detail,Bangna,2025,May,Scope 1,Fugitive Emissions,Refrigerant R-32,0
+Detail,Bangna,2026,May,Scope 1,Fugitive Emissions,Refrigerant R-134a,0
+Detail,Bangna,2025,May,Scope 1,Fugitive Emissions,Refrigerant R-134a,0
+Detail,Bangna,2026,May,Scope 1,Fugitive Emissions,Refrigerant R-410A,0
+Detail,Bangna,2025,May,Scope 1,Fugitive Emissions,Refrigerant R-410A,0
+Detail,Bangna,2026,May,Scope 1,Fugitive Emissions,Refrigerant R-407C,0
+Detail,Bangna,2025,May,Scope 1,Fugitive Emissions,Refrigerant R-407C,0
+Detail,Bangna,2026,May,Scope 2,การปล่อยก๊าซเรือนกระจกทางอ้อมจากการนำเข้าพลังงานมาใช้ในองค์กร,ไฟฟ้านำเข้าจากภายนอก,552.2065
+Detail,Bangna,2025,May,Scope 2,การปล่อยก๊าซเรือนกระจกทางอ้อมจากการนำเข้าพลังงานมาใช้ในองค์กร,ไฟฟ้านำเข้าจากภายนอก,615.6813391
+Detail,Bangna,2026,May,Scope 2,การปล่อยก๊าซเรือนกระจกทางอ้อมจากการนำเข้าพลังงานมาใช้ในองค์กร,ไฟฟ้าจาก Solar Rooftop,0
+Detail,Bangna,2025,May,Scope 2,การปล่อยก๊าซเรือนกระจกทางอ้อมจากการนำเข้าพลังงานมาใช้ในองค์กร,ไฟฟ้าจาก Solar Rooftop,0
+Detail,Bangna,2026,May,Scope 2,การปล่อยก๊าซเรือนกระจกทางอ้อมจากการนำเข้าพลังงานมาใช้ในองค์กร,ไอน้ำจาก TDIC,0
+Detail,Bangna,2025,May,Scope 2,การปล่อยก๊าซเรือนกระจกทางอ้อมจากการนำเข้าพลังงานมาใช้ในองค์กร,ไอน้ำจาก TDIC,0
+Detail,Bangna,2026,May,Scope 2,,Solar Value,552.2065
+Breakdown,Bangna,2026,May,Scope 1,,Plan,480.79
+Breakdown,Bangna,2026,May,Scope 2,,Plan,458.66
+KPI,Bangna,2026,May,OverviewKPI,,carbonIntensity,0.075917283
+Detail,Bangna,2026,Jun,Scope 1,Stationary Combustion,Diesel B7 - ปั๊มดับเพลิง,0.100751990616
+Detail,Bangna,2025,Jun,Scope 1,Stationary Combustion,Diesel B7 - ปั๊มดับเพลิง,0.100751990616
+Detail,Bangna,2026,Jun,Scope 1,Stationary Combustion,Diesel B7 - Generator,0
+Detail,Bangna,2025,Jun,Scope 1,Stationary Combustion,Diesel B7 - Generator,0
+Detail,Bangna,2026,Jun,Scope 1,Stationary Combustion,Fuel Oil A - Hot oil,117.080080582352
+Detail,Bangna,2025,Jun,Scope 1,Stationary Combustion,Fuel Oil A - Hot oil,130.810263849766
+Detail,Bangna,2026,Jun,Scope 1,Stationary Combustion,Fuel Oil A - Boiler,47.1475946063476
+Detail,Bangna,2025,Jun,Scope 1,Stationary Combustion,Fuel Oil A - Boiler,26.5458796567907
+Detail,Bangna,2026,Jun,Scope 1,Stationary Combustion,LPG - โรงอาหาร / การผลิตเพลส์ / การผลิตเรซิน,2.98884627555556
+Detail,Bangna,2025,Jun,Scope 1,Stationary Combustion,LPG - โรงอาหาร / การผลิตเพลส์ / การผลิตเรซิน,2.54051933422222
+Detail,Bangna,2026,Jun,Scope 1,Mobile Combustion: Off-road,Diesel B7 - รถโฟล์คลิฟท์ / รถหัวลาก / รถบรรทุก (Waste yard),45.571878337284
+Detail,Bangna,2025,Jun,Scope 1,Mobile Combustion: Off-road,Diesel B7 - รถโฟล์คลิฟท์ / รถหัวลาก / รถบรรทุก (Waste yard),47.4316704843085
+Detail,Bangna,2026,Jun,Scope 1,Mobile Combustion: On-road,Diesel B7 - ยานพาหนะของบริษัท,120.411831305435
+Detail,Bangna,2025,Jun,Scope 1,Mobile Combustion: On-road,Diesel B7 - ยานพาหนะของบริษัท,120.639300740184
+Detail,Bangna,2026,Jun,Scope 1,Mobile Combustion: On-road,Diesel B10 - ยานพาหนะของบริษัท,0.442053443195109
+Detail,Bangna,2025,Jun,Scope 1,Mobile Combustion: On-road,Diesel B10 - ยานพาหนะของบริษัท,0
+Detail,Bangna,2026,Jun,Scope 1,Mobile Combustion: On-road,Diesel B20 - ยานพาหนะ of บริษัท,1.33428765100464
+Detail,Bangna,2025,Jun,Scope 1,Mobile Combustion: On-road,Diesel B20 - ยานพาหนะ of บริษัท,0
+Detail,Bangna,2026,Jun,Scope 1,Mobile Combustion: On-road,Gasohol 91 - ยานพาหนะของบริษัท,156.301087720283
+Detail,Bangna,2025,Jun,Scope 1,Mobile Combustion: On-road,Gasohol 91 - ยานพาหนะของบริษัท,150.807021803265
+Detail,Bangna,2026,Jun,Scope 1,Mobile Combustion: On-road,Gasohol 95 - ยานพาหนะของบริษัท,9.48293537798519
+Detail,Bangna,2025,Jun,Scope 1,Mobile Combustion: On-road,Gasohol 95 - ยานพาหนะของบริษัท,9.75116816258453
+Detail,Bangna,2026,Jun,Scope 1,Mobile Combustion: On-road,ULG 95 - ยานพาหนะของบริษัท,0
+Detail,Bangna,2025,Jun,Scope 1,Mobile Combustion: On-road,ULG 95 - ยานพาหนะของบริษัท,0
+Detail,Bangna,2026,Jun,Scope 1,Mobile Combustion: On-road,Gasohol E20 - ยานพาหนะของบริษัท,32.0580997604001
+Detail,Bangna,2025,Jun,Scope 1,Mobile Combustion: On-road,Gasohol E20 - ยานพาหนะของบริษัท,30.9481951502441
+Detail,Bangna,2026,Jun,Scope 1,Mobile Combustion: On-road,Gasohol E85 - ยานพาหนะของบริษัท,0
+Detail,Bangna,2025,Jun,Scope 1,Mobile Combustion: On-road,Gasohol E85 - ยานพาหนะของบริษัท,0
+Detail,Bangna,2026,Jun,Scope 1,Fugitive Emissions,CO2 Fire Extinguisher,0
+Detail,Bangna,2025,Jun,Scope 1,Fugitive Emissions,CO2 Fire Extinguisher,0
+Detail,Bangna,2026,Jun,Scope 1,Fugitive Emissions,Methane from WWT,0
+Detail,Bangna,2025,Jun,Scope 1,Fugitive Emissions,Methane from WWT,0
+Detail,Bangna,2026,Jun,Scope 1,Fugitive Emissions,Methane from Septic tank,30.956352
+Detail,Bangna,2025,Jun,Scope 1,Fugitive Emissions,Methane from Septic tank,29.736672
+Detail,Bangna,2026,Jun,Scope 1,Fugitive Emissions,Refrigerant R-32,0
+Detail,Bangna,2025,Jun,Scope 1,Fugitive Emissions,Refrigerant R-32,0
+Detail,Bangna,2026,Jun,Scope 1,Fugitive Emissions,Refrigerant R-134a,0
+Detail,Bangna,2025,Jun,Scope 1,Fugitive Emissions,Refrigerant R-134a,0
+Detail,Bangna,2026,Jun,Scope 1,Fugitive Emissions,Refrigerant R-410A,0
+Detail,Bangna,2025,Jun,Scope 1,Fugitive Emissions,Refrigerant R-410A,0
+Detail,Bangna,2026,Jun,Scope 1,Fugitive Emissions,Refrigerant R-407C,0
+Detail,Bangna,2025,Jun,Scope 1,Fugitive Emissions,Refrigerant R-407C,0
+Detail,Bangna,2026,Jun,Scope 2,การปล่อยก๊าซเรือนกระจกทางอ้อมจากการนำเข้าพลังงานมาใช้ในองค์กร,ไฟฟ้านำเข้าจากภายนอก,551.921975
+Detail,Bangna,2025,Jun,Scope 2,การปล่อยก๊าซเรือนกระจกทางอ้อมจากการนำเข้าพลังงานมาใช้ในองค์กร,ไฟฟ้านำเข้าจากภายนอก,557.1755426
+Detail,Bangna,2026,Jun,Scope 2,การปล่อยก๊าซเรือนกระจกทางอ้อมจากการนำเข้าพลังงานมาใช้ในองค์กร,ไฟฟ้าจาก Solar Rooftop,0
+Detail,Bangna,2025,Jun,Scope 2,การปล่อยก๊าซเรือนกระจกทางอ้อมจากการนำเข้าพลังงานมาใช้ในองค์กร,ไฟฟ้าจาก Solar Rooftop,0
+Detail,Bangna,2026,Jun,Scope 2,การปล่อยก๊าซเรือนกระจกทางอ้อมจากการนำเข้าพลังงานมาใช้ในองค์กร,ไอน้ำจาก TDIC,0
+Detail,Bangna,2025,Jun,Scope 2,การปล่อยก๊าซเรือนกระจกทางอ้อมจากการนำเข้าพลังงานมาใช้ในองค์กร,ไอน้ำจาก TDIC,0
+Detail,Bangna,2026,Jun,Scope 2,,Solar Value,551.921975
+Breakdown,Bangna,2026,Jun,Scope 1,,Plan,480.79
+Breakdown,Bangna,2026,Jun,Scope 2,,Plan,458.66
+KPI,Bangna,2026,Jun,OverviewKPI,,carbonIntensity,0.074869903

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TOA Carbon Footprint Dashboard</title>
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css?v=10">
+  <!-- ApexCharts CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+  <!-- PapaParse CDN for CSV Parsing -->
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+</head>
+<body>
+  <div class="app-container">
+    <!-- Header -->
+    <header class="dashboard-header">
+      <div class="header-left">
+        <div class="logo-container">
+          <img src="image/toa-logo.png" alt="TOA Logo" class="toa-logo">
+        </div>
+        <div class="title-container">
+          <h1>Carbon Footprint Dashboard</h1>
+          <div class="last-updated-container">
+            <span class="last-updated-label">Last updated:</span>
+            <span id="last-updated-time" class="last-updated-value">Loading...</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="header-filters">
+        <div class="filter-group">
+          <label for="select-year">Year</label>
+          <div class="select-wrapper">
+            <select id="select-year"></select>
+          </div>
+        </div>
+        <div class="filter-group">
+          <label for="select-month">Month</label>
+          <div class="select-wrapper">
+            <select id="select-month"></select>
+          </div>
+        </div>
+        <div class="filter-group">
+          <label for="select-site">Site</label>
+          <div class="select-wrapper">
+            <select id="select-site"></select>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="dashboard-main">
+      <!-- KPI Cards Row -->
+      <section class="kpi-cards-row">
+        <!-- Card 1: Total Emission -->
+        <div class="kpi-card" id="card-total-emissions">
+          <div class="kpi-card-header">
+            <h3>Total Emission <span class="sub-label">(Scope 1+2)</span></h3>
+            <span class="unit">tCO<sub>2</sub>e</span>
+          </div>
+          <div class="kpi-card-body">
+            <div class="kpi-value-container">
+              <span class="kpi-value" id="kpi-total-val">-</span>
+              <img src="image/TotalEmission.png" alt="Total Emission" class="kpi-icon-image">
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: Carbon Intensity -->
+        <div class="kpi-card" id="card-carbon-intensity">
+          <div class="kpi-card-header">
+            <h3>Carbon Intensity</h3>
+            <span class="unit">tCO<sub>2</sub>e / production ton</span>
+          </div>
+          <div class="kpi-card-body">
+            <div class="kpi-value-container">
+              <span class="kpi-value" id="kpi-intensity-val">-</span>
+              <img src="image/CarbonIntensity.png" alt="Carbon Intensity" class="kpi-icon-image">
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: Scope 1 -->
+        <div class="kpi-card" id="card-scope1">
+          <div class="kpi-card-header">
+            <h3>Scope 1</h3>
+            <span class="unit">tCO<sub>2</sub>e</span>
+          </div>
+          <div class="kpi-card-body">
+            <div class="kpi-value-container">
+              <span class="kpi-value" id="kpi-s1-val">-</span>
+              <img src="image/Scope1.png" alt="Scope 1" class="kpi-icon-image">
+            </div>
+            <div class="kpi-card-trend-badge" id="trend-s1-badge">
+              <span class="arrow">↓</span> <span class="pct">-</span> <span class="label">compared to 2025</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4: Scope 2 -->
+        <div class="kpi-card" id="card-scope2">
+          <div class="kpi-card-header">
+            <h3>Scope 2</h3>
+            <span class="unit">tCO<sub>2</sub>e</span>
+          </div>
+          <div class="kpi-card-body">
+            <div class="kpi-value-container">
+              <span class="kpi-value green-text" id="kpi-s2-val">-</span>
+              <img src="image/Scope2.png" alt="Scope 2" class="kpi-icon-image">
+            </div>
+            <div class="kpi-card-trend-badge green-badge" id="trend-s2-badge">
+              <span class="arrow">↓</span> <span class="pct">-</span> <span class="label">compared to 2025</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Charts Row -->
+      <section class="charts-row-container">
+        <!-- Chart Block 1: Comparison -->
+        <div class="chart-block-card">
+          <div class="chart-card-header flex-header-layout">
+            <h2>Comparison: <span id="comp-prev-year">2025</span> vs <span id="comp-active-year">2026</span> (Actual) Scope 1+2</h2>
+            <div class="view-toggle-group">
+              <button class="view-toggle-btn active" id="btn-view-total">Total</button>
+              <button class="view-toggle-btn" id="btn-view-monthly">Monthly</button>
+            </div>
+          </div>
+          <div class="chart-card-body flex-row-layout">
+            <div class="apex-chart-container flex-grow-1" id="comparison-chart-div"></div>
+            <div class="trend-badge-sidebar">
+              <div class="circular-trend-badge-large" id="comp-trend-circle">
+                <span class="arrow">↓</span>
+                <span class="pct">-</span>
+              </div>
+              <div class="trend-badge-text-label"><span id="comp-trend-pct-label">-</span> vs <span id="comp-trend-prev-year-label">2025</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chart Block 2: Breakdown Plan vs Actual -->
+        <div class="chart-block-card">
+          <div class="chart-card-header">
+            <h2>Scope Breakdown (Plan vs Actual)</h2>
+          </div>
+          <div class="chart-card-body breakdown-columns">
+            <!-- Scope 1 Column -->
+            <div class="breakdown-column">
+              <h3 class="breakdown-title s1-blue">Scope 1</h3>
+              <div class="breakdown-values-row">
+                <div class="val-group">
+                  <span class="lbl">Plan</span>
+                  <span class="val" id="breakdown-s1-plan">-</span>
+                </div>
+                <div class="val-group">
+                  <span class="lbl">Actual</span>
+                  <span class="val actual-blue-text" id="breakdown-s1-actual">-</span>
+                </div>
+              </div>
+              <div class="breakdown-chart-and-badge">
+                <div class="apex-chart-container" id="s1-breakdown-chart-div"></div>
+                <div class="trend-badge-side">
+                  <div class="circular-trend-badge-small" id="breakdown-s1-circle">
+                    <span class="arrow">↑</span>
+                    <span class="pct">-</span>
+                  </div>
+                  <div class="trend-text-small">vs Plan</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Scope 2 Column -->
+            <div class="breakdown-column">
+              <h3 class="breakdown-title s2-green">Scope 2</h3>
+              <div class="breakdown-values-row">
+                <div class="val-group">
+                  <span class="lbl">Plan</span>
+                  <span class="val" id="breakdown-s2-plan">-</span>
+                </div>
+                <div class="val-group">
+                  <span class="lbl">Actual</span>
+                  <span class="val actual-green-text" id="breakdown-s2-actual">-</span>
+                </div>
+              </div>
+              <div class="breakdown-chart-and-badge">
+                <div class="apex-chart-container" id="s2-breakdown-chart-div"></div>
+                <div class="trend-badge-side">
+                  <div class="circular-trend-badge-small green-badge" id="breakdown-s2-circle">
+                    <span class="arrow">↓</span>
+                    <span class="pct">-</span>
+                  </div>
+                  <div class="trend-text-small">vs Plan</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Banner Footer -->
+    <footer class="decorative-banner">
+      <div class="banner-left">
+        Together, we build a <span class="highlight">low-carbon future</span>
+      </div>
+      <div class="banner-right">
+        <div class="banner-image-container">
+          <img src="image/footer-bg-static.png?v=3" alt="Eco Banner" class="banner-bg-img">
+          <img src="image/footer-trees-moving.png?v=3" alt="Eco Trees" class="banner-trees-img">
+          
+          <!-- Windmill Overlay 1 (Tall, Left) -->
+          <div class="windmill-overlay windmill-overlay-1 windmill-spin-fast">
+            <svg viewBox="-15 -15 30 30" width="100%" height="100%">
+              <g fill="#B0CBE8">
+                <path d="M 0,0 Q 1.8,-6 0.8,-13 Q -0.8,-13 -0.5,0 Z" />
+                <path d="M 0,0 Q 1.8,-6 0.8,-13 Q -0.8,-13 -0.5,0 Z" transform="rotate(120)" />
+                <path d="M 0,0 Q 1.8,-6 0.8,-13 Q -0.8,-13 -0.5,0 Z" transform="rotate(240)" />
+              </g>
+              <circle cx="0" cy="0" r="1.5" fill="#8FB2DB" />
+            </svg>
+          </div>
+          
+          <!-- Windmill Overlay 2 (Medium, Middle) -->
+          <div class="windmill-overlay windmill-overlay-2 windmill-spin-medium">
+            <svg viewBox="-15 -15 30 30" width="100%" height="100%">
+              <g fill="#B0CBE8">
+                <path d="M 0,0 Q 1.8,-6 0.8,-13 Q -0.8,-13 -0.5,0 Z" />
+                <path d="M 0,0 Q 1.8,-6 0.8,-13 Q -0.8,-13 -0.5,0 Z" transform="rotate(120)" />
+                <path d="M 0,0 Q 1.8,-6 0.8,-13 Q -0.8,-13 -0.5,0 Z" transform="rotate(240)" />
+              </g>
+              <circle cx="0" cy="0" r="1.5" fill="#8FB2DB" />
+            </svg>
+          </div>
+          
+          <!-- Windmill Overlay 3 (Short, Right) -->
+          <div class="windmill-overlay windmill-overlay-3 windmill-spin-slow">
+            <svg viewBox="-15 -15 30 30" width="100%" height="100%">
+              <g fill="#B0CBE8">
+                <path d="M 0,0 Q 1.8,-6 0.8,-13 Q -0.8,-13 -0.5,0 Z" />
+                <path d="M 0,0 Q 1.8,-6 0.8,-13 Q -0.8,-13 -0.5,0 Z" transform="rotate(120)" />
+                <path d="M 0,0 Q 1.8,-6 0.8,-13 Q -0.8,-13 -0.5,0 Z" transform="rotate(240)" />
+              </g>
+              <circle cx="0" cy="0" r="1.5" fill="#8FB2DB" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- App Main Code -->
+  <script src="app.js?v=1"></script>
+</body>
+</html>
